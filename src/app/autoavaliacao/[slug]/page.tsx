@@ -8,6 +8,13 @@ import Client from "./client";
   ao client dando fetch uma vez só.
 */
 
+// Pré-renderização estática de caminhos dinâmicos, necessário para deploy no github pages
+export async function generateStaticParams() {
+  return quizzes.map((quiz) => ({
+    slug: quiz.slug,
+  }));
+}
+
 // Alterar metadata da página dinamicamente
 export async function generateMetadata({
   params,
