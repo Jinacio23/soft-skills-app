@@ -1,0 +1,9 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/autoavaliacao/[slug]/page": "app/autoavaliacao/[slug]/page.js",
+  "/autoavaliacao/[slug]/iniciar/page": "app/autoavaliacao/[slug]/iniciar/page.js",
+  "/autoavaliacao/[slug]/resultados/page": "app/autoavaliacao/[slug]/resultados/page.js",
+  "/sobre/page": "app/sobre/page.js"
+}
